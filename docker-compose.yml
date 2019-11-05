@@ -1,0 +1,14 @@
+version: '2.1'
+services:
+  pg:
+    container_name: postgr
+    environment:
+      POSTGRES_PASSWORD: 'password'
+      POSTGRES_USER: 'user'
+      POSTGRES_DB: 'api'
+    image: postgres:11.4
+    ports:
+      - '5440:5432'
+    expose:
+      - '5432'
+    network_mode: bridge

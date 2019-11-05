@@ -1,0 +1,28 @@
+.Layout {
+  background: #FFF;
+  height: 100vh;
+  display: flex;
+}
+
+.Layout_sidebar {
+  display: flex;
+  flex-direction: column;
+  background: #2999bb;
+  width: 300px;
+}
+
+.Layout_main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Layout_logout {
+  display: block;
+  padding-bottom: 12px;
+  padding-top: 16px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #FFF;
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.chat_login {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.chat_logo p {
+  margin: 0;
+  padding: 40px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+
+img {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.chat_login button {
+  margin-top: 4;
+	border-radius: 20px;
+  border: 1px solid #FFFFFF;
+  background-color: #2999bb; 
+  color: #FFFFFF;
+  text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 28px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
